@@ -47,7 +47,6 @@ const ShareModal = ({
       setLoading(false);
     }
   };
-  console.log(currentUserType);
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
